@@ -21,10 +21,15 @@ body {
 
 /* header */
 
+header {
+    padding: 5px 5px 0 0;
+}
+
 header nav span {
     background-color: gray;  
     padding: 5px 10px;
     display: inline-block;
+    border-radius: 8px;
 }
 
 nav {
@@ -36,7 +41,7 @@ nav {
 
 main {
     position: relative;
-    height: calc(100vh - 70px - 25px);
+    height: calc(100vh - 70px - 30px);
 }
 
 .call-box {
